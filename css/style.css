@@ -1,1 +1,120 @@
 @import url('fonts.css');
+/*=================Global settings===================*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Larsseit', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+/*================== Landing sections================*/
+
+/* section one */
+
+.section_one {
+    height: 840px;
+    background: #F4F9E2;
+    overflow: hidden;
+}
+
+.section_one .container {
+    height: 840px;
+    position: relative;
+    padding-top: 38px;
+}
+
+.section_one .container .logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #62D0DF;
+}
+
+.section_one .container .logo.main {
+    position: absolute;
+    width: 484px;
+    height: 27px;
+    left: 179px;
+    top: 27px;
+}
+
+.section_one .container nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 607px;
+    width: 233px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #22356F;
+}
+
+.section_one .container .link {
+    padding: 10px;
+    width: 70px;
+    transition-property: box-shadow;
+    transition-duration: 1.2s;
+}
+
+.section_one .container .link a {
+    text-decoration: none;
+    color: #22356F;
+}
+
+.link:hover {
+    box-shadow: inset 0px -1px 0px #22356F;
+}
+
+.section_one .container .promo_img_bg {
+    position: absolute;
+    width: 807.71px;
+    height: 544.93px;
+    left: 800px;
+    top: 120px;
+    background: #EDFDFF;
+    border-radius: 312.159px;
+    transform: matrix(0.5, -0.87, 0.87, 0.5, 0, 0);
+}
+
+.section_one .container .promo_img_bg .wrap {
+    position: relative;
+    overflow: hidden;
+    width: 807.71px;
+    height: 544.93px;
+    right: 100px;
+    top: 30px;
+    background: #EDFDFF;
+    border-radius: 312.159px;
+    transform: matrix(-0.87, 0.5, 0.5, 0.87, 0, 0);
+    transform: rotate(30deg);
+}
+
+.section_one .container .promo_img_bg .wrap::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    width: 807.71px;
+    height: 760px;
+    background: url('../template/img/promo_img_section_one.jpg') center center/cover no-repeat;
+    border-radius: 312.159px;
+    transform: rotate(30deg);
+}
+
+.section_one .container .contact_us_bt {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1159px;
+    top: 27px;
+    background: #62D0DF;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
