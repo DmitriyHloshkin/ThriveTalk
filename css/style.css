@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    outline: none;
 }
 
 html {
@@ -14,6 +15,7 @@ html {
 .container {
     margin: 0 auto;
     width: 1440px;
+    
 }
 
 /*================== Landing sections================*/
@@ -32,6 +34,12 @@ html {
     padding-top: 38px;
 }
 
+.section_one .container header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
 .section_one .container .logo {
     font-size: 24px;
     font-weight: 900;
@@ -39,17 +47,12 @@ html {
 }
 
 .section_one .container .logo.main {
-    position: absolute;
-    width: 484px;
     height: 27px;
-    left: 179px;
-    top: 27px;
 }
 
 .section_one .container nav {
     display: flex;
     justify-content: space-between;
-    margin-left: 607px;
     width: 233px;
     height: 40px;
     font-size: 14px;
@@ -62,15 +65,40 @@ html {
     width: 70px;
     transition-property: box-shadow;
     transition-duration: 1.2s;
+    margin-right: 15px;
 }
 
 .section_one .container .link a {
     text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
     color: #22356F;
 }
 
 .link:hover {
     box-shadow: inset 0px -1px 0px #22356F;
+}
+
+.section_one .container .contact_us_bt {
+    z-index: 2;
+    width: 150px;
+    height: 50px;
+    background: #62D0DF;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-width: 0px;
+    cursor: pointer;
+    transition-property: filter;
+    transition-duration: 1s;
+}
+
+.section_one .container .contact_us_bt:hover {
+    filter: brightness(150%);
 }
 
 .section_one .container .promo_img_bg {
@@ -108,13 +136,49 @@ html {
     transform: rotate(30deg);
 }
 
-.section_one .container .contact_us_bt {
-    position: absolute;
-    width: 150px;
-    height: 50px;
-    left: 1159px;
-    top: 27px;
-    background: #62D0DF;
-    border-radius: 50px;
+.section_one .container .content_wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 469px;
+    height: 524px;
+    flex-direction: column;
+    margin-top: 187px;
+    margin-bottom: 75px;
+}
+
+.content_wrap .content {
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356F;
+}
+
+.content_wrap h1 {
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    color: #22356F;
     text-transform: uppercase;
+}
+
+.content_wrap .questions .who_im_am_btn, .content_wrap .questions .what_do_i_do_btn {
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bolder;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FAB63E;
+    border:none;
+    outline: none;
+    background-color: #F4F9E2;
+    transition-property: background-color color;
+    transition-duration: 1s;
+}
+.content_wrap .questions .what_do_i_do_btn {
+    margin-left: 40px;
+}
+
+.content_wrap .questions .who_im_am_btn:hover, .content_wrap .questions .what_do_i_do_btn:hover {
+    background-color: #F9B640;
+    color: #FFFFFF;
 }
