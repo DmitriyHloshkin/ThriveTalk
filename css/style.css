@@ -201,11 +201,12 @@ html {
     justify-content: space-around;
     height: 607px;
     width: 915px;
+    padding-bottom: 80px;
 }
 
 .section_two .container .content h2 {
     height: 200px;
-    padding-top: 130px;
+    padding-top: 100px;
     font-size: 36px;
     line-height: 27px;
     color: #FFFFFF;
@@ -227,4 +228,108 @@ html {
     background: url('../template/img/gerl_section_two.jpg') center center/cover;
     height: 607px;
     width: 525px;
+}
+
+/* section four */
+
+.section_third {
+    height: 1000px;
+}
+
+.section_third .container {
+    padding-top: 150px;
+}
+
+.section_third .container .about_us {
+    display: flex;
+    justify-content: flex-start;
+    width: 1200px;
+    margin-bottom: 76px;
+}
+
+.section_third .container .about_us .about {
+    width: 400px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #22356F;
+}
+
+.section_third .container .about_us .content {
+    width: 650px;
+    font-size: 20px;
+    line-height: 42px;
+    letter-spacing: 0.005em;
+    color: #22356F;
+    font-weight: bold;
+}
+
+.section_third .container .we_can_help {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+    margin-bottom: 24px;
+}
+
+.section_third .container .help_list {
+    display: flex;
+}
+
+.section_third .container .help_list li {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    border: none;
+    font-family: Larsseit;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    color: #FFFFFF;
+    padding-top: 95px;
+    text-align: center;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.section_third .container .help_list li pre {
+    font-family: Larsseit;
+}
+
+.section_third .container .help_list li::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 54px;
+    top: 100px;
+    background: #E9B730;
+}
+
+.section_third .container .help_list li::after {
+    content: "";
+    position: absolute;
+    width: 255px;
+    height: 72px;
+    left: 50px;
+    top: 0px;
+    border-bottom: 1px solid #FFFFFF;
+    box-shadow: inset 0px -1px 0px #FFFFFF;
+}
+
+.help_list li:first-child{
+    background: #FFE2DE;
+}
+
+.help_list li:nth-child(2) {
+    background: #C4E769;
+}
+
+.help_list li:nth-child(3) {
+    background: #62D0DF;
+}
+
+.help_list li:nth-child(4) {
+    background: #0052C1;
 }
