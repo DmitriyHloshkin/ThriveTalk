@@ -15,7 +15,6 @@ html {
 .container {
     margin: 0 auto;
     width: 1440px;
-    
 }
 
 /*================== Landing sections================*/
@@ -105,7 +104,7 @@ html {
     position: absolute;
     width: 807.71px;
     height: 544.93px;
-    left: 800px;
+    left: 670px;
     top: 120px;
     background: #EDFDFF;
     border-radius: 312.159px;
@@ -168,12 +167,13 @@ html {
     align-items: center;
     text-transform: uppercase;
     color: #FAB63E;
-    border:none;
+    border: none;
     outline: none;
     background-color: #F4F9E2;
     transition-property: background-color color;
     transition-duration: 1s;
 }
+
 .content_wrap .questions .what_do_i_do_btn {
     margin-left: 40px;
 }
@@ -184,3 +184,47 @@ html {
 }
 
 /* section two */
+
+.section_two {
+    height: 607px;
+    background: #62D0DF;
+}
+
+.section_two .container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section_two .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 607px;
+    width: 915px;
+}
+
+.section_two .container .content h2 {
+    height: 200px;
+    padding-top: 130px;
+    font-size: 36px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.section_two .container .content .content_text {
+    width: 600px;
+    height: 235px;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.section_two .container .content .content_text span {
+    font-weight: bolder;
+}
+
+.section_two .container .img_bg {
+    background: url('../template/img/gerl_section_two.jpg') center center/cover;
+    height: 607px;
+    width: 525px;
+}
