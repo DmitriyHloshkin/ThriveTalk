@@ -45,7 +45,6 @@ html {
     color: #62D0DF;
 }
 
-
 .section_one .container .logo.main {
     height: 27px;
 }
@@ -160,7 +159,7 @@ html {
     text-transform: uppercase;
 }
 
-.content_wrap .questions .who_im_am_btn, .content_wrap .questions .what_do_i_do_btn {
+.content_wrap .questions .who_im_am_btn, .content_wrap .questions .what_do_i_do_btn, .who_im_am_btn {
     height: 50px;
     width: 150px;
     font-size: 16px;
@@ -451,7 +450,7 @@ html {
 /* section six */
 
 .section_six {
-    height: 900px;
+    height: 800px;
     padding-top: 40px;
 }
 
@@ -504,4 +503,67 @@ html {
 
 span.logo {
     font-size: 36px;
+}
+
+/* section seven */
+
+.section_seven {
+    height: 800px;
+}
+
+.section_seven .container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section_seven .container .img_bg {
+    width: 480px;
+    height: 800px;
+    background: url('../template/img/smille_men_section_seven.jpg') center center/cover no-repeat;
+}
+
+.section_seven .container .text_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 960px;
+    height: 800px;
+    padding: 103px 201px 42px 180px;
+    background: #22356F;
+}
+
+.section_seven .container .text_content .contact_us {
+    height: 244px;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.section_seven .container .text_content h2 {
+    height: 141px;
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.section_seven .container .text_content .content_text {
+    height: 227px;
+    width: 579px;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    
+}
+
+.section_seven .container .text_content .get_help_now {
+    height: 42px;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #62D0DF;
+    text-transform: uppercase;
 }
