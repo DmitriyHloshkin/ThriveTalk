@@ -39,11 +39,12 @@ html {
     margin-right: 150px;
 }
 
-.section_one .container .logo {
+.section_one .container .logo, span.logo {
     font-size: 24px;
     font-weight: 900;
     color: #62D0DF;
 }
+
 
 .section_one .container .logo.main {
     height: 27px;
@@ -445,4 +446,62 @@ html {
     line-height: 25px;
     letter-spacing: -0.03em;
     color: rgba(34, 53, 111, 0.5);
+}
+
+/* section six */
+
+.section_six {
+    height: 900px;
+    padding-top: 40px;
+}
+
+.section_six .container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section_six .container .img_bg {
+    width: 480px;
+    height: 800px;
+    background: url('../template/img/mens_section_six.jpg') center center/cover no-repeat;
+}
+
+.section_six .container .text_content {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 800px;
+    padding: 103px 175px 42px 106px;
+}
+
+.section_six .container .text_content .content_top {
+    height: 245px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+    font-weight: 900;
+}
+
+.section_six .container .text_content .content_middle {
+    height: 357px;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    color: #22356F;
+    font-weight: 900;
+}
+
+.section_six .container .text_content .content_bottom {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+span.logo {
+    font-size: 36px;
 }
