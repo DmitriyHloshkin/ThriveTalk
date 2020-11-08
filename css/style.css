@@ -556,7 +556,6 @@ span.logo {
     line-height: 53px;
     letter-spacing: -0.005em;
     color: #FFFFFF;
-    
 }
 
 .section_seven .container .text_content .get_help_now {
@@ -566,4 +565,105 @@ span.logo {
     letter-spacing: 0.1em;
     color: #62D0DF;
     text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* section eight */
+
+.section_eight {
+    height: 380px;
+}
+
+.section_eight .container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section_eight .container .contacts_information {
+    display: flex;
+    justify-content: flex-start;
+    width: 1440px;
+}
+
+.section_eight .container .contacts_information .img_bg {
+    width: 570px;
+    height: 380px;
+    background: url('../template/img/smille_gerl.jpg') center center/cover no-repeat;
+}
+
+.section_eight .container .content_information {
+    display: flex;
+    width: 870px;
+    padding: 98px 40px 99px 68px;
+}
+
+.section_eight .container .content_information .some_info {
+    width: 240px;
+    height: 183px;
+}
+
+.section_eight .container .content_information .enfold {
+    width: 240px;
+    height: 183px;
+}
+
+.section_eight .container .content_information .office {
+    width: 240px;
+    height: 183px;
+}
+
+.section_eight .container h2 {
+    width: 240px;
+    height: 48px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    color: #22356F;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.section_eight .container .content_information .content {
+    width: 240px;
+    height: 115px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: -0.006em;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.mail {
+    color: #1F7FFF;
+}
+
+address {
+    font-style: normal;
+}
+
+/* footer */
+
+footer .container {
+    height: 80px;
+    background: #62D0DF;
+    padding-top: 32px;
+}
+
+footer .container .content {
+    position: relative;
+    margin-left: 194px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+footer .container .content::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 12px;
+    background: url('../template/logo/Copyright\ _logo.png') center center/cover no-repeat;
+    left: -15px;
+    top: -3px;
 }
