@@ -234,10 +234,13 @@ html {
 
 .section_third {
     height: 1000px;
+    background: #F4F9E2;
+    
 }
 
 .section_third .container {
     padding-top: 150px;
+    
 }
 
 .section_third .container .about_us {
@@ -339,6 +342,7 @@ html {
 
 .section_four {
     height: 960px;
+    background: #F4F9E2;
 }
 
 .section_four .container .help_list {
@@ -416,6 +420,7 @@ html {
 
 .section_five {
     height: 480px;
+    background: #F4F9E2;
 }
 
 .section_five .container {
@@ -432,6 +437,8 @@ html {
     height: 240px;
     padding: 55px 77px 37px 105px;
 }
+
+
 
 .section_five .container .wrap h3 {
     font-size: 28px;
@@ -452,6 +459,7 @@ html {
 .section_six {
     height: 800px;
     padding-top: 40px;
+    background: #F4F9E2;
 }
 
 .section_six .container {
@@ -493,12 +501,30 @@ html {
 }
 
 .section_six .container .text_content .content_bottom {
+    display: flex;
+    justify-content: center;
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0.1em;
-    color: #FAB63E;
     text-transform: uppercase;
     font-weight: 900;
+
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FAB63E;
+    border: none;
+    outline: none;
+    background-color: #F4F9E2;
+    transition-property: background-color color;
+    transition-duration: 1s;
+    vertical-align: 50px;
+}
+
+.section_six .container .text_content .content_bottom:hover {
+    background-color: #F9B640;
+    color: #FFFFFF;
 }
 
 span.logo {
@@ -509,6 +535,7 @@ span.logo {
 
 .section_seven {
     height: 800px;
+    background: #F4F9E2;
 }
 
 .section_seven .container {
@@ -568,10 +595,38 @@ span.logo {
     font-weight: 900;
 }
 
+
+.section_seven .container .text_content .get_help_now {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 900;
+
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    background: #22356F;
+    transition-property: background-color color;
+    transition-duration: 1s;
+    vertical-align: 50px;
+}
+
+.section_seven .container .text_content .get_help_now:hover {
+    background: #62D0DF;
+    color: #FFFFFF;
+}
 /* section eight */
 
 .section_eight {
     height: 380px;
+    background: #F4F9E2;
 }
 
 .section_eight .container {
@@ -642,11 +697,15 @@ address {
 }
 
 /* footer */
+footer {
+    background: #62D0DF;
+}
 
 footer .container {
     height: 80px;
     background: #62D0DF;
     padding-top: 32px;
+    
 }
 
 footer .container .content {
@@ -667,3 +726,18 @@ footer .container .content::before {
     left: -15px;
     top: -3px;
 }
+
+/* effects */
+
+.section_third .container .help_list li:hover , .section_four .container .help_list li:hover, .section_five .container .wrap:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+
